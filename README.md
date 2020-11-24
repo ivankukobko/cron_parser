@@ -13,3 +13,8 @@ command      /bin/sh
 ```
 
 Does not yet fully validate input
+
+### Testing
+```
+$ ruby lib/cron_parser_test.rb
+```
