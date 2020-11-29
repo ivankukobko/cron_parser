@@ -2,7 +2,7 @@
 
 Script deciphers cron commands
 ```
-$ ./cron_parser.sh '0 0 0 0 * /bin/sh'
+$ ./cron_parser '0 0 0 0 * /bin/sh'
 
 minute       0
 hour         0
