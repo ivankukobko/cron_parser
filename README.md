@@ -2,7 +2,7 @@
 
 Script deciphers cron commands
 ```
-$ ./cron_parser '0 0 0 0 * /bin/sh'
+$ ./bin/cron_parser '0 0 0 0 * /bin/sh'
 
 minute       0
 hour         0
@@ -16,5 +16,5 @@ Does not yet fully validate input
 
 ### Testing
 ```
-$ ruby lib/cron_parser_test.rb
+$ rake
 ```
